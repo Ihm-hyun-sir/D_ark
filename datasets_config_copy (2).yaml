@@ -1,0 +1,26 @@
+RFMiD: 
+  data_dir: dataset/RFMiD_Images/
+  train_list: dataset/RFMiD_Training_Labels.csv
+  val_list: dataset/RFMiD_Validation_Labels.csv
+  test_list: dataset/RFMiD_Testing_Labels.csv
+  diseases: ['Disease_Risk','DR','ARMD','MH','DN','MYA','BRVO','TSLN','ERM','LS','MS','CSR','ODC','CRVO','AH','ODP','ODE','AION','PT','RT','RS','CRS','EDN','RPEC','MHL']
+  task_type: mutli-label classification
+  imagetype: png
+  
+ODIR-5k: 
+  data_dir: dataset/ODIR_5k_images/
+  train_list: dataset/ODIR-5k_train.csv
+  val_list: dataset/ODIR-5k_val.csv
+  test_list: dataset/ODIR-5k_test.csv
+  diseases: ['D','G','C','A','H','M','O']
+  task_type: multi-label classification
+  imagetype: jpg
+
+MuRED: 
+  data_dir: dataset/MuRED_images/
+  train_list: dataset/MuRed_train.csv
+  val_list: dataset/MuRed_val.csv
+  test_list: dataset/MuRed_train.csv
+  diseases: ["DR","NORMAL","MH","ODC","TSLN","ARMD","DN","MYA","BRVO","ODP","CRVO","CNV","RS","ODE","LS","CSR","HTR","ASR","CRS","OTHER"]
+  task_type: multi-label classification
+  imagetype: png
